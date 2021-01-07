@@ -26,8 +26,8 @@ const PeriodicTable = () => {
           }}
         >
           <strong>{element.symbol}</strong>
-          <small className="number">{element.number}</small>
-          <small className="name">{element.name}</small>
+          <small className="element-number">{element.number}</small>
+          <small className="element-name">{element.name}</small>
         </div>
       ))}
     </div>
