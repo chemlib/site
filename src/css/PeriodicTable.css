@@ -24,14 +24,14 @@
 }
 
 .element .number {
-  font-size: 8px;
+  font-size: 9px;
   position: absolute;
   top: 5px;
   left: 5px;
 }
 
 .element .name {
-  font-size: 8px;
+  font-size: 10px;
   position: absolute;
   bottom: 5px;
   left: 5px;

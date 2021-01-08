@@ -35,7 +35,13 @@ const PeriodicTable = () => {
 
 const App = () => {
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <h1>Periodic Table of Elements</h1>
       <PeriodicTable />
     </div>
