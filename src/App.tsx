@@ -1,5 +1,4 @@
-import React from "react";
-
+import "./css/PeriodicTable.css";
 import data from "./data/PeriodicTable.json";
 
 const colors = new Map<string, string>();
@@ -22,16 +21,25 @@ const PeriodicTable = () => {
           style={{
             gridRow: element.ypos,
             gridColumn: element.xpos,
-            borderColor: colors.get(element.category)
+            borderColor: colors.get(element.category),
           }}
         >
           <strong>{element.symbol}</strong>
-          <small className="element-number">{element.number}</small>
-          <small className="element-name">{element.name}</small>
+          <small className="number">{element.number}</small>
+          <small className="name">{element.name}</small>
         </div>
       ))}
     </div>
-  )
+  );
 };
 
-export default PeriodicTable;
+const App = () => {
+  return (
+    <div>
+      <h1>Periodic Table of Elements</h1>
+      <PeriodicTable />
+    </div>
+  );
+};
+
+export default App;

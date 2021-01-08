@@ -1,10 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import PeriodicTable from './PeriodicTable';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./css/styles.css";
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <PeriodicTable />
+    <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
