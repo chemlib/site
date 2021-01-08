@@ -1,7 +1,7 @@
 {
   "name": "periodic-table",
   "author": "Govind Gnanakumar",
-  "homepage": "https://harirakul.github.io/chemlib",
+  "homepage": "https://chemlib.github.io/site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
